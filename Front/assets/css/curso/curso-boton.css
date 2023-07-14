@@ -1,0 +1,13 @@
+.curso__boton{
+    background:#7fc3f1;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out ;
+}
+
+.curso__boton:hover{
+    cursor: pointer;
+    background: #75b3f5;
+}

@@ -1,0 +1,28 @@
+.menu-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	border-bottom: 1px solid #9799A6;
+}
+
+@media(min-width: 769px) {
+    .menu-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.menu-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+    .menu-nav {
+		width: auto;
+	}
+
+	.menu-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+}

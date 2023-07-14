@@ -1,0 +1,29 @@
+.curso{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    
+}
+
+@media screen and (min-width: 0){
+    .curso{
+        margin-right: 1rem;
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 768px){
+    .curso{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .curso{
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+    
+}
